@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d12980b-da78-4467-963e-0b44561364f2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System</find>
+      <find>mes</find>
+      <find>sqlList</find>
+      <find>sys</find>
+      <find>roll</find>
+      <find>shutdown</find>
+      <find>Thread</find>
+      <find>elements</find>
+      <find>tomcat</find>
+      <find>Document</find>
+      <find>consoleLog</find>
+      <find>fileInfoLog</find>
+      <find>logDir</find>
+      <find>\\</find>
+      <find>con</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/Program Files/git_repository" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="P:/maven" />
+        <option name="userSettingsFile" value="D:\zyfapp\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1hZjWgUrMwLsbbjxQ5plEiyqREh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zyfapp\idea_project\check\src\main\resources" />
+      <recent name="D:\zyfapp\idea_project\check\src\main\java\com\test\check\xml" />
+      <recent name="D:\zyfapp\idea_project\check\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.check.utils" />
+      <recent name="com.test.check.Controller.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zyfapp\idea_project\check\src\main\resources" />
+      <recent name="D:\zyfapp\idea_project\check\src\main\java\com\test\check" />
+      <recent name="D:\zyfapp\idea_project\check" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TestmysqlApplication (1)">
+    <configuration name="DownloadImg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.check.controller.DownloadImg" />
+      <module name="check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.check.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HGQU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.check.controller.HGQU" />
+      <module name="check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.check.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.check.utils.IsCon" />
+      <module name="check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.check.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.check.controller.Test" />
+      <module name="check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.check.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLpaseForHB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.check.controller.XMLpaseForHB" />
+      <module name="check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.check.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestmysqlApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="check" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.check.controller.TestmysqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IsCon" />
+        <item itemvalue="Application.XMLpaseForHB" />
+        <item itemvalue="Application.HGQU" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DownloadImg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\mayn\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d12980b-da78-4467-963e-0b44561364f2" name="Default Changelist" comment="" />
+      <created>1568787810340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568787810340</updated>
+      <workItem from="1568787813590" duration="4589000" />
+      <workItem from="1568795849784" duration="24971000" />
+      <workItem from="1568972891138" duration="20282000" />
+      <workItem from="1569396814672" duration="110000" />
+      <workItem from="1569470278402" duration="5567000" />
+      <workItem from="1569475932692" duration="48886000" />
+      <workItem from="1570609541302" duration="4157000" />
+      <workItem from="1571382928476" duration="662000" />
+      <workItem from="1571660909181" duration="76000" />
+      <workItem from="1571732850997" duration="6685000" />
+      <workItem from="1572513346058" duration="2490000" />
+      <workItem from="1573098339171" duration="31266000" />
+      <workItem from="1573630553799" duration="797000" />
+      <workItem from="1573716105973" duration="627000" />
+      <workItem from="1573873713265" duration="692000" />
+      <workItem from="1574077950751" duration="4933000" />
+      <workItem from="1574403893409" duration="14000" />
+      <workItem from="1574490796444" duration="1328000" />
+      <workItem from="1574762451831" duration="1544000" />
+      <workItem from="1574770817150" duration="16684000" />
+      <workItem from="1575451745129" duration="1560000" />
+      <workItem from="1575527696462" duration="605000" />
+      <workItem from="1575971007199" duration="7463000" />
+      <workItem from="1576500187601" duration="175638000" />
+      <workItem from="1579004639671" duration="4180000" />
+      <workItem from="1579080042507" duration="6564000" />
+      <workItem from="1579419886977" duration="290000" />
+      <workItem from="1579420192858" duration="13010000" />
+      <workItem from="1579488246965" duration="2462000" />
+      <workItem from="1581300076896" duration="2058000" />
+      <workItem from="1582018096443" duration="528000" />
+      <workItem from="1582114576716" duration="809000" />
+      <workItem from="1582598454262" duration="1830000" />
+      <workItem from="1582982165124" duration="8997000" />
+      <workItem from="1583131422064" duration="41774000" />
+      <workItem from="1600225542889" duration="414000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试数据库是否全部链接成功">
+      <created>1574079336309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574079336309</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试数据库是否全部链接成功">
+      <created>1574080777840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574080777840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 10h 55m 35s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 00m 14s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 01m 57s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 20m 17s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 21m 40s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 21m 56s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 22m 57s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 23m 50s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.08 at 11h 28m 19s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BcTest1_test2 - 2020.01.09 at 16h 08m 45s.xml">
+      <configuration name="BcTest1.test2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="D:/Program Files" />
+      <path value="D:/Program Files/git_repository" />
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="测试数据库是否全部链接成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试数据库是否全部链接成功" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/check$Test.ic" NAME="Test Coverage Results" MODIFIED="1573191152920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.test.check.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/check$Haha.ic" NAME="Haha Coverage Results" MODIFIED="1577713097839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.test.check.controller.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i==29</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i=29</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>check</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-core:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

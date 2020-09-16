@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>成长基金日志</title>
+		<link rel="shortcut  icon" type="image/x-icon" href="bitbug_favicon (2).ico" media="screen" />
+		<link rel="stylesheet" href="../layui/css/layui.css" />
+		<link rel="stylesheet" href="../css/growthCapital.css" />
+		<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../js/bootstrap-table/bootstrap-table.min.css"/>
+		<link rel="stylesheet" href="../js/multiple/bootstrap-multiselect.css" />
+		<link rel="stylesheet" href="../js/loading/jquery.mloading.css" />
+		<style type="text/css">
+			.fixed-table-loading{
+				background: #363636;
+				color: white;
+				top: 80px;
+				border: 0;
+			}
+			.pagination>li>a, .pagination>li>span{
+				color: white;
+				background-color: transparent;
+				border: 0;
+			}
+			.bootstrap-table .fixed-table-pagination>.pagination-detail .page-list{
+				color: #C0C0C0;
+			}
+			.pagination>li>a, .pagination>li>span:hover{
+				background: #464545;
+			}
+			.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover{
+				color: #C0C0C0;
+				background-color: #464545;
+				border: 0;
+			}
+			.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+				color: #428BCA;
+				background: #464545;
+				border: 0;
+			}
+			.pagination-info{
+				color: #C0C0C0;
+			}
+			.checkbox{
+				color: #C0C0C0;
+				font-size: 14px;
+				line-height: 30px;
+			}
+			.dropdown-menu,.btn-default{
+				background: #363636;
+				color: #C0C0C0;
+			}
+			.btn-default:hover{
+				background: #363636;
+				color: #C0C0C0;
+			}
+			.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
+				color: #C0C0C0;
+				background: #363636;
+			}
+			.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+				color: #C0C0C0;
+				background: #363636;
+			}
+			.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+				background: #363636;
+			}
+			.btn-default.focus, .btn-default:focus{
+				background: #363636;
+				color: #C0C0C0;
+			}
+			.bootstrap-table{
+				clear: both;
+			}
+			.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+				background: #555555;
+				border-color: #555555;
+			}
+			.pagination>li>a:hover, .pagination>li>span:hover{
+				color: white;
+			}
+			.sum_div,.Recharge {
+            	height: 100%
+        	}
+        	.bootstrap-table {
+            	height: 80%;
+            	max-height: 640px;
+        	}
+        	.fixed-table-container {
+            	height: 100%;
+        	}
+        	#replace_table thead tr th {
+            	border: 0;
+            	color: white;
+            	height: 50px;
+            	font-size: 14px;
+            	line-height: 30px;
+        	}
+		</style>
+	</head>
+	<body style="background: #202020;" onload="lo()">
+		<div id="navs"></div>
+		<div class="layui-layout layui-layout-admin">
+			<div class="layui-body" style="padding: 20px;">
+				<div class="sum_div">
+					<div class="Recharge">
+						<form role="form" class="form-inline" style="height: 140px;">
+							<div class="form-group" style="width: 26%;float: left;">
+								<label for="">区服号</label>
+								<select id="district_service" multiple="multiple"></select>
+							</div>
+							<div class="form-group" style="width: 26%;float: left;">
+								<label for="">账号ID</label>
+								<input type="text" class="form-control" id="accountID" placeholder="请输入账号ID" />
+							</div>
+							<div class="form-group layui-inline" style="width: 26%;float: left;">
+								<label for="">日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期</label>
+								<input type="text" class="form-control" id="datatimes" />
+							</div>
+							<button type="button" class="layui-btn layui-btn-normal" id="query" onclick="queryFormation()">查询</button>
+							<br /><br /><br /><br />
+							<div class="form-group" style="width: 26%;float: left;">
+								<label for="">角色ID</label>
+								<input type="text" class="form-control" id="roleID" placeholder="请输入角色ID" />
+							</div>
+							<div class="form-group" style="width: 26%;float: left;">
+								<label for="">角色名</label>
+								<input type="text" class="form-control" id="roleName" placeholder="请输入角色名" />
+							</div>
+							<button type="button" class="layui-btn layui-btn-normal" id="export" onclick="exportGrowth()">导出</button>
+							<br /><br /><br /><br />
+						</form>
+						<div class="replace_area" style="width:100%;max-width:1603px;height:50px;position:fixed;overflow-y:hidden;background: #1A1A1A;z-index:99;display:none;">
+                        	<table id="replace_table" class="table table-bordered table-hover" style="width:100%;border:1px solid transparent;"></table>
+                    	</div>
+						<table id="datatable"></table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../layui/layui.js"></script>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/loading/jquery.mloading.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/multiple/bootstrap-multiselect.js"></script>
+	<script src="../js/bootstrap-table/bootstrap-table.min.js"></script>
+	<script src="../js/growthCapital.js"></script>
+	<script>
+		$("#navs").load("Navigation.html")
+		function lo(){
+			$(".411").addClass("layui-this").siblings().removeClass("layui-this")
+			$(".411").parent().parent().addClass("layui-nav-itemed").siblings().removeClass("layui-nav-itemed")
+		}
+		function exportGrowth(){
+			$("body").mLoading("show");
+			var pay_district_num = $("#district_service").val(); //区服号
+			var account=$("#accountID").val();//账号ID
+			var pay_date = $("#datatimes").val(); //日期
+			var roles = $("#roleID").val(); //角色ID
+			var rolesname = $("#roleName").val(); //角色名
+			if(pay_district_num!=""){
+				pay_district_num=pay_district_num.join(",")
+			}
+			$.ajax({
+				type:"get",
+				url:"../queryGrowth_FundGrowthExport.action",
+				async:true,
+				data:{
+					serverId: pay_district_num,
+					accountId: account,
+					seDate: pay_date,
+					roleId: roles,
+					roleName: rolesname,
+					pageIndex:1,
+					pageSize:100000000
+				},
+				success:function(e){
+					if(e.state==false){
+						alert(e.message)
+						$("body").mLoading("hide");
+					}else{
+						window.open('/upload/log.xlsx');
+						$("body").mLoading("hide");
+					}
+				}
+			});
+		}
+	</script>
+</html>
